@@ -22,7 +22,7 @@ public class ConversorTest {
 		assertTrue(commonTest.testArrays(array1, conversor.getNameConverterArray()));
 	}
 	/*
-	@Test
+	 @Test
 	public void testConversor0() {
 		Conversor conversor = new Conversor();
 		conversor.setNameConverterArrayValues();
