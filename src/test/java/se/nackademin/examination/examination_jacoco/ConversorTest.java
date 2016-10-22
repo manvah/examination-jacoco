@@ -43,9 +43,6 @@ public class ConversorTest {
 	@Test
 	public void setAgeConverterArrayValues(){
 	
-	//array1.add("You are young and talented! Things will come your way soon enough!");
-	//array1.add("You are experienced and talented! Things will come your way soon enough!");
-	
 		conversor.setAgeConverterArrayValues();
 		assertTrue(commonTest.testArrays(array1, conversor.getAgeConverterArray()));
 	

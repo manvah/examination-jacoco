@@ -14,10 +14,8 @@ public class DataAnalysisTest {
 	@Test
 	public void testBuildFinalString() {
 		values.addAll(Arrays.asList("Game", "Rafael", "Silva", "M", "27", "Fortaleza"));
-		
 		String result = dataAnalysis.buildFinalString(values);
-		//assertTrue("'#####################-- ANALYSIS OF THE INPUT DATA --#####################\n' "  ,
-			//result.contains("#####################-- ANALYSIS OF THE INPUT DATA --#####################\n" + result));
+		result.contains("#####################-- ANALYSIS OF THE INPUT DATA --#####################\nNo analysis was performed\nThe name of the homecity is big and the participant is younger than 30");
 
 	}
 	@Test
